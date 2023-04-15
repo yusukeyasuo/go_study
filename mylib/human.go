@@ -4,11 +4,12 @@ import "fmt"
 
 var Public string = "Public"
 var private string = "private"
-type Person struct{
+
+type Person struct {
 	Name string
-	Age int
+	Age  int
 }
 
-func Say(){
+func Say() {
 	fmt.Println("Human!")
 }
